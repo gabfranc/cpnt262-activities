@@ -17,3 +17,8 @@ input {
   width: 40vh;
   height: 10vh;
 }
+
+.circle {
+  background-color: linear-gradient(45deg, #D9D9D9, #efd7d7) ;
+  height: 10vh;
+}
