@@ -1,0 +1,31 @@
+#site-header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-items {
+  list-style-type: none;
+  padding: 0;
+}
+.visible {
+  display: none;
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
+.text-violet{
+  color: violet;
+}
+
+/* TODO: Create class to hide primary-nav until it's clicked  */
+
+@media (min-width: 600px) {
+  .nav-items {
+    display: flex;
+    gap: 12px;
+  }
+}

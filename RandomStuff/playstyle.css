@@ -7,10 +7,10 @@ body{
   background: #c7e4fb;
 }
 
-div {
+.btn{
   position: absolute;
   display: grid;
-  grid-template-columns: 1fr 1fr 5fr;
+  grid-template-columns: 2fr 2fr 5fr;
   grid-template-rows: 200px 200px;
 }
 
@@ -56,33 +56,33 @@ div {
   transition: transform 0.5s ease-in-out;
 }
 
-.color:hover:nth-child(even){
+.color:hover, .color:active, .color:focus:nth-child(even){
   background-color: #dcd5f7;
   color:rgb(62, 12, 120);
   
 }
 
-.color:hover:nth-child(odd){
+.color:hover, .color:active, .color:focus:nth-child(odd){
   background-color: #dcd5f7;
   color:rgb(62, 12, 120);
 }
 
-.color:hover:nth-child(n + 3){
+.color:hover, .color:active, .color:focus:nth-child(n + 3){
   background-color: #dcd5f7;
   color:rgb(62, 12, 120);
 }
 
-.color:hover:nth-child(n - 4){
+.color:hover, .color:active, .color:focus:nth-child(n - 4){
   background-color: #dcd5f7;
   color:rgb(62, 12, 120);
 }
 
-.color:hover:nth-child(2n - 5){
+.color:hover, .color:active, .color:focus:nth-child(2n - 5){
   background-color: #314c9e;
   color:rgb(168, 121, 221);
 }
 
-.color:hover:nth-child(2n + 6){
+.color:hover, .color:active, .color:focus:nth-child(2n + 6){
   background-color: #dcd5f7;
   color:rgb(62, 12, 120);
 }
