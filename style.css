@@ -4,3 +4,16 @@ body{
   box-sizing: border-box;
   background: linear-gradient(45deg, #CADFFF, #d9e7fd);
 }
+
+#dark_mode {
+  background-color: linear-gradient(45deg, #070E52, #060928) ;
+}
+
+input {
+  margin-top: 50vh;
+  margin-left: 20vh;
+  border: none;
+  border-radius: 20px;
+  width: 40vh;
+  height: 10vh;
+}
