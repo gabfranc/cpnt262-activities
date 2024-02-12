@@ -4,6 +4,85 @@
   box-sizing: none;
 }
 body{
-  background-color: linear-gradient(45deg, #CADFFF, #a9c7f5, #78a9f4);
+  background: #c7e4fb;
+}
 
+div {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  grid-template-rows: 200px 200px;
+}
+
+.color{
+  height: 30vh;
+  width: 30vh;
+  font-size: 90px;
+  justify-content: center;
+  text-align: none;
+  display: flex;
+  align-items: center;
+  border: 6px solid rgb(37, 9, 69);
+  cursor: pointer;
+}
+.color:nth-child(even){
+  background-color: #f2f0fa;
+}
+
+.color:nth-child(odd){
+  background-color: #f2f0fa;
+}
+
+.color:nth-child(n + 3){
+  background-color: #f2f0fa;
+}
+
+.color:nth-child(n - 4){
+  background-color: #f2f0fa;
+}
+
+.color:nth-child(2n - 5){
+  background-color: #90a1d3;
+}
+
+.color:nth-child(2n + 6){
+  background-color: #f2f0fa;
+}
+
+
+.color:hover{
+  animation: flicker 0.5s infinite;
+  font-size: 20vh;
+  transition: transform 0.5s ease-in-out;
+}
+
+.color:hover:nth-child(even){
+  background-color: #dcd5f7;
+  color:rgb(62, 12, 120);
+  
+}
+
+.color:hover:nth-child(odd){
+  background-color: #dcd5f7;
+  color:rgb(62, 12, 120);
+}
+
+.color:hover:nth-child(n + 3){
+  background-color: #dcd5f7;
+  color:rgb(62, 12, 120);
+}
+
+.color:hover:nth-child(n - 4){
+  background-color: #dcd5f7;
+  color:rgb(62, 12, 120);
+}
+
+.color:hover:nth-child(2n - 5){
+  background-color: #314c9e;
+  color:rgb(168, 121, 221);
+}
+
+.color:hover:nth-child(2n + 6){
+  background-color: #dcd5f7;
+  color:rgb(62, 12, 120);
 }
