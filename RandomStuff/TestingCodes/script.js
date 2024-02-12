@@ -5,6 +5,6 @@ const primaryNavButton = document.querySelector("#primary-nav-toggle");
 
 // add an event listener to trigger the toggle button
 primaryNavToggle.addEventListener("click", () => {
-  console.log("Button Clicked!", primaryNav);
+  primaryNav.classList.toggle("visible");
 });
 //hiding the items using selecting classList
