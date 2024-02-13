@@ -5,6 +5,32 @@
 }
 
 body {
-  padding: 30px;
-  background: linear-gradient(45deg, #c1d6fa, #a8c3f2, #7ca4ea);
+  height: 100vh;
+  background: linear-gradient(45deg, #f5fac1, #afdafd, #fcf6c5);
+  color: #0a62f9;
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30vh;
+  margin-top: 30vh;
 }
+
+.btn button {
+  height: 10vh;
+  width: 30vh;
+  border:none;
+  border-radius: 50vh;
+  margin-top: 20vh;
+  background: #6594b9;
+  cursor:pointer;
+}
+
+
+
+
+
+.dark_mode {
+  background: linear-gradient(45deg, #3643da, #063fb0);
+  color: aliceblue;;
+}
+
