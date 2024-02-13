@@ -21,6 +21,7 @@ body {
   border:none;
   border-radius: 50vh;
   margin-top: 20vh;
+  margin-left: 50vh;
   background: #6594b9;
   box-shadow: 6px 6px 0 #466ab0;
   cursor: pointer;
@@ -41,3 +42,11 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
+
+@media (max-width: 550px){
+  .btn button {
+    margin-left: -8vh;
+  }
+}
