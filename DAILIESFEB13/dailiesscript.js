@@ -1,3 +1,4 @@
+// Lyric from Vigilante by Taylor Swift from Midnights Album
 let myString = 'Draw the cat eye sharp enough to kill a man';
 myString.startsWith('Draw');
 console.log(myString.startsWith('Draw'));
