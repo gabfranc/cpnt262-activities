@@ -22,15 +22,22 @@ body {
   border-radius: 50vh;
   margin-top: 20vh;
   background: #6594b9;
-  cursor:pointer;
+  box-shadow: 6px 6px 0 #466ab0;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: #5388b1;
+  box-shadow: 2px 2px 0 #4164ab;
+  transition: transform 0.3s ease-in-out;
 }
 
 
 
 
-
 .dark_mode {
-  background: linear-gradient(45deg, #3643da, #063fb0);
-  color: aliceblue;;
+  background: linear-gradient(45deg, #3643da, #4406b0, #0633b0);
+  color: rgb(209, 212, 240);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
